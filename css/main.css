@@ -87,8 +87,53 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+    font-family: 'Rubik Bubbles';
+    src: url('../fonts/RubikBubbles-Regular.eot');
+    src: url('../fonts/RubikBubbles-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RubikBubbles-Regular.woff2') format('woff2'),
+        url('../fonts/RubikBubbles-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
-
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+header{
+  background-image: url(../img/coaster_background.png);
+  background-position: center;
+  border-bottom: 2px solid #0000ff;
+}
+header .wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+header nav a{
+  border: 1px solid black;
+  padding: 5px;
+  background: #fff;
+  font-weight: bolder;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+.headerTitle{
+  margin: 0;
+  padding: 30px 20px;
+  font-size: 40px;
+  font font-weight: lighter;
+  text-shadow: 5px 5px 10px #0000ff;
+  font-family: 'Rubik Bubbles';
+}
 
 
 
