@@ -25,7 +25,11 @@
 <body>
 
   <?php require_once 'header.php'; ?>
-
+  <main>
+    <div class="wrapper">
+      
+    </div>
+  </main>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>

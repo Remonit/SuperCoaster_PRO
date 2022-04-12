@@ -105,7 +105,7 @@ textarea {
 header{
   background-image: url(../img/coaster_background.png);
   background-position: center;
-  border-bottom: 2px solid #0000ff;
+  border-bottom: 2px solid yellow;
 }
 header .wrapper{
   display: flex;
@@ -130,7 +130,7 @@ header nav a{
   margin: 0;
   padding: 30px 20px;
   font-size: 40px;
-  font font-weight: lighter;
+  font-weight: lighter;
   text-shadow: 5px 5px 10px #0000ff;
   font-family: 'Rubik Bubbles';
 }
