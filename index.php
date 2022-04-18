@@ -27,7 +27,11 @@
   <?php require_once 'header.php'; ?>
   <main>
     <div class="wrapper">
-      
+      <div class="home-news">
+        <h1>Nieuwe achtbaantechniek!</h1>
+        <p>We hebben hard staan werken om de ultieme plezier over te brengen in de vorm van een leuke achtbaan rit! De snelste achtbaan ter wereld is niet zo maar een titel die ik zou weggeven, maar de huidige wereldrecord houder krijgt daar helaas geen keus in. De scherpste bochten en langste ritjes zijn nu alleen nog maar te vinden in de Super Coaster. Dus voor een spectaculair avontuur weet je precies waar je moet zijn!</p>
+        <img src="img/achtbaan1.jpg" alt="">
+      </div>
     </div>
   </main>
 
